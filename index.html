@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        /*  katta mashq */
+        /* .error {
+            color: red;
+            font-size: 12px;
+        }
+        input, select, textarea {
+            margin-bottom: 10px;
+        }
+        button[disabled] {
+            background-color: grey;
+        } */
+         /* kichik mashqlar */
+    </style>
+</head>
+<body>
+  <!-- <form id="form">
+      <label for="name">Ismingiz:</label>
+        <input type="text" id="name" placeholder="Ismingizni yozing"><br>
+        <span id="firstNameError" class="error"></span><br>
+
+        <label for="lastname">Familiyangiz:</label>
+        <input type="text" id="lastname" placeholder="Familiyangizni yozing"><br>
+        <span id="lastNameError" class="error"></span><br>
+
+        <label for="date">Tug‘ilgan sana:</label>
+        <input type="date" id="date"><br>
+        <span id="dobError" class="error"></span><br>
+
+        <label for="number">Telefon raqam:</label>
+        <input type="text" id="number" placeholder="Telefon nomeringizni yozing"><br>
+        <span id="numberError" class="error"></span><br>
+
+        <label for="email">Email manzil:</label>
+        <input type="email" id="email" placeholder="Emailingizni yozing"><br>
+        <span id="emailError" class="error"></span><br>
+
+        <label for="password">Parol:</label>
+        <input type="password" id="password" placeholder="Parolni yozing"><br>
+        <span id="passwordError" class="error"></span><br>
+
+        <label for="checkpassword">Parolni tasdiqlash:</label>
+        <input type="password" id="checkpassword" placeholder="Parolni qayta kiriting"><br>
+        <span id="confirmPasswordError" class="error"></span><br>
+
+        <label for="adress">Manzil:</label>
+        <textarea id="adress" placeholder="Manzilingizni kiriting"></textarea><br>
+        <span id="adressError" class="error"></span><br>
+
+        <label for="postalcode">Pochta indeksi:</label>
+        <input type="text" id="postalcode" placeholder="Pochta indeksini yozing"><br>
+        <span id="postalcodeError" class="error"></span><br>
+
+        <label for="gender">Jinsingiz:</label>
+        <select id="gender">
+            <option value="">Tanlang</option>
+            <option value="Erkak">Erkak</option>
+            <option value="Ayol">Ayol</option>
+        </select><br>
+        <span id="genderError" class="error"></span><br>
+
+        <label for="check">
+            <input type="checkbox" id="check"> Qoidalarga rozilik bildiraman
+        </label><br>
+        <span id="checkError" class="error"></span><br>
+
+        <button type="submit" id="submitBtn" disabled>Yuborish</button>
+    </form> -->
+
+    <!-- 1-masala -->
+
+    <input type="text" id="name" placeholder="Ismingizni kiriting">
+
+    <button id="btn">Ismni ko'rsatish</button>
+
+    <div id="create"></div>
+
+    <!-- 2-masala -->
+     <div id="namediv">Muso Mahkamov</div>
+     <button id="editbtn">TAHRIRLASH</button>
+     <button id="savebtn" style="display: none">SAQLASH</button>
+
+     <!-- 3-masala -->
+                    <label for="password">Parol:</label>
+                    <input type="password" id="password" placeholder="Parolni kiriting">
+
+                    <label for="confirmPassword">Parol:</label>
+                    <input type="password" id="confirmPassword" placeholder="Parolni qayta kiriting">
+
+                    <button id="submitBtn">Tasdiqlash</button>
+ 
+    <!-- 4-masala -->
+    <label for="colorInt">Rangni tanlang:</label>
+    <input type="color" id="colorInt">
+
+    <!-- 5-masala -->
+ 
+     <label for="cityInt">Shahar nomini kiriting</label>
+    <input type="text" id="cityInt" placeholder="Shahar nomini yozing">
+
+     <button id="cityBtn">Qo‘shish</button>
+
+     <ul id="cityul"></ul>
+
+     <!-- 6-masala -->
+      <label for="messageInput">Xabarni kiriting:</label>
+      <input type="text" id="messageInput" placeholder="Xabarni yozing...">
+      <button id="messagebtn">Xabarni yuborish</button>
+      <div id="messagediv"></div>
+
+      <!-- 7-masala -->
+       <label for="ageInt">Yoshingizni kiriting:</label>
+      <input type="number" id="ageInt" placeholder="Yoshni kiriting...">
+     <button id="checkBtn">Tekshirish</button>
+    <div id="resMessage"></div>
+    <!-- 8-masala -->
+
+    <label for="colorInt">Rangni kiriting(red,green, black,yellow, blue):</label>
+    <input type="text" id="colorInt" placeholder="Rangni yozing...">
+    <button id="ColorBtn">Rangni o'zgartirish</button>
+
+    <!-- 9-masala -->
+     <label for="firstNameInput">Ism:</label>
+<input type="text" id="firstName" placeholder="Ismingizni kiriting...">
+<br>
+<label for="lastName">Familiya:</label>
+<input type="text" id="lastName" placeholder="Familiyangizni kiriting...">
+<br>
+<button id="addBtn">Qo‘shish</button>
+
+<ul id="nameList"></ul>
+
+<!-- 10-masala -->
+<textarea name="" id="description"></textarea>
+<p>
+    <span id="count">0</span><span>/300</span>
+</p>
+
+<!-- 11-masala -->
+
+
+
+<!-- 12-masala -->
+
+
+<!-- 13-masala -->
+
+<label for="firsttName">Ism:</label>
+<input type="text" id="firsttName" placeholder="Ismingizni kiriting...">
+<br>
+<label for="lasttName">Familiya:</label>
+<input type="text" id="lasttName" placeholder="Familiyangizni kiriting...">
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="Emailingizni kiriting...">
+<br>
+<button id="clearBtn">Tozalash</button>
+
+<!-- 14-masala -->
+<input type="text" id="search">
+<ul id="list">
+    <li>Akrom</li>
+    <li>Abror</li>
+    <li>Madamin</li>
+    <li>Zayniddin</li>
+    <li>Umidjon</li>
+</ul>
+<!-- 15-masala -->
+
+<div id="textdiv">Lorem ipsum dolor sit amet.</div>
+     <button id="editbutton">Tahrirlash</button>
+
+     <input type="text" id="text" style="display: none;" >
+     <button id="savebutton" style="display: none;" >Saqlash</button>
+     <script src="main.js"></script>
+</body>
+</html>
