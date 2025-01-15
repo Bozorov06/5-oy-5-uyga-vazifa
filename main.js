@@ -336,14 +336,13 @@ ColorBtn && ColorBtn.addEventListener('click',function(){
      if (
        color == "red" ||
        color == "green" ||
-       color == "blue" ||
-       color == "black" ||
-       color == "yellow"
+       color == "blue"
+       
      ) {
        document.body.style.backgroundColor = color;
      } else {
        alert(
-         "Iltimos, 'red', 'green', 'blue','black' yoki'yellow' ranglarini kiriting!"
+         "Iltimos, 'red', 'green' yoki 'blue', ranglarini kiriting!"
        );
      }
 })
