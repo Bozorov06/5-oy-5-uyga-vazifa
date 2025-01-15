@@ -331,7 +331,7 @@ checkBtn.addEventListener("click", function () {
 const colorInt = document.getElementById('colorInt')
 const ColorBtn = document.getElementById('ColorBtn')
 
-ColorBtn && ColorBtn.addEventListener('click',function(){
+ColorBtn && ColorBtn.addEventListener('input',function(){
     const color = colorInt.value.trim().toLowerCase();
      if (
        color == "red" ||
